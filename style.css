@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  div{
+    font-weight: bold;
+  }
+  header h1 {
+    margin: 0;
+  }
+  section h2{
+    color:white ;
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  li{
+    font-weight: bold;
+  }
+  label{
+    font-weight: bold;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(9, 118, 33);
+    color: #fff;
+    border-radius: 10px;
+    font-weight:bolder;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  /* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+  
+  .banner{
+    background-image:url(headphone\ .jpeg);
+    height: 20vw;
+    min-height: 100px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: black;
+    background-attachment:fixed;
+  }
+    @media screen and (max-width:700px) {
+        section{
+             flex-direction: column;
+        }
+        
+    }
